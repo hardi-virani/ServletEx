@@ -27,10 +27,11 @@
     </dependency>
 
     <!-- Source: https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-core -->
+    <!-- Source: https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-core -->
     <dependency>
       <groupId>org.apache.tomcat.embed</groupId>
       <artifactId>tomcat-embed-core</artifactId>
-      <version>9.0.118</version>
+      <version>10.1.55</version>
       <scope>compile</scope>
     </dependency>
 
