@@ -20,8 +20,6 @@ public class HelloServlet extends HttpServlet {
         out.println("<h2><b><I>Hello, giving a response to the client back.</I></b></h2>");
 
 
-
-
     }
 
 
