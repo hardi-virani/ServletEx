@@ -7,6 +7,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 
 import java.io.IOException;
+import java.io.PrintWriter;
 
 public class HelloServlet extends HttpServlet {
 
@@ -14,7 +15,11 @@ public class HelloServlet extends HttpServlet {
 
         System.out.println("In Service");
 
-        resp.getWriter().println("Hello, giving a response to the client back.");
+        resp.setContentType("text/html");
+        PrintWriter out = resp.getWriter();
+        out.println("<h2><b><I>Hello, giving a response to the client back.</I></b></h2>");
+
+
 
 
     }
