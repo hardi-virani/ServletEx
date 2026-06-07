@@ -10,9 +10,11 @@ import java.io.IOException;
 
 public class HelloServlet extends HttpServlet {
 
-    public void service(HttpServletRequest req, HttpServletResponse resp)  {
+    public void service(HttpServletRequest req, HttpServletResponse resp) throws IOException {
 
         System.out.println("In Service");
+
+        resp.getWriter().println("Hello, giving a response to the client back.");
 
 
     }
